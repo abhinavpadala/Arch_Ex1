@@ -16,9 +16,10 @@ public class MyGame extends ApplicationAdapter {
 	Texture img;
 	Sprite sprite;
 
+	//Co-ordinates
 	private float X = 0;
 	private float Y = 0;
-
+	//velocity
 	private float DX = 2;
 	private float DY = 3;
 
