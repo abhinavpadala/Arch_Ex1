@@ -5,8 +5,8 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 
-//Singleton pattern implementation
-public class Chopper {
+//Template pattern implementation
+public class Chopper extends Game {
     SpriteBatch batch;
     Sprite sprite;
     Texture img;
