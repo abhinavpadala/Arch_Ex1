@@ -11,7 +11,7 @@ public class MyGame extends ApplicationAdapter implements InputProcessor {
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 600;
 	Chopper chopper;
-	public int screenx, screeny;
+	public static int screenx, screeny;
 
 	@Override
 	public void create () {
